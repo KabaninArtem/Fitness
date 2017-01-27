@@ -1,21 +1,13 @@
 body {
+	font-family: regular,sans-serif;
 	background-color: #f9f9f9;
 }
 p {
-	font-family: Regular, sans-serif;
 	margin-top: 50px;
 	text-align: justify;
 	width: 660px;
 	float: right;
 	margin-right: 13px;
-}
-span {
-	font-size: 14px;
-	font-family: regular,sans-serif;
-	width: 160px;
-	float: left;
-	margin-left: 360px;
-	line-height: 30px;
 }
 .wrapper {
 	height:1100px;
@@ -35,31 +27,30 @@ span {
 .header img {
 	margin-top: 50px;
 }
-.menu ul, .footermenu ul {
-	margin-top: 40px;
+.menu{
+	margin-top: 39px;
+}
+.menu ul {
 	background: linear-gradient(to top, #444343, #525252);
 	height: 39px;
 	width: 964px;	
 }
-.menu li, .footermenu li {
-	display: inline-block;	
-	width: 100px;
-	height: 39px;
-	line-height: 40px;
-	text-align: center;	
+.menu li{
+	padding-top: 10px;
+  display: inline-block;
+  height: 29px;
 }
-.menu a, .footermenu a {
+.menu a {
 	text-decoration: none;
+	padding: 10px 30px 13px;
 	color: white;
-	font-family: regular, sans-serif;
 	font-size: 14px;
 }
-.menu li:hover {
-	width: 96px;
-	height: 39px;
+.menu a:hover {
+	padding:10px 28px 13px;
+	background: linear-gradient(to top, #2f2f2f, #4a4a4a);
 	border-right: 2px solid #838383;
 	border-left: 2px solid #838383;
-	background: linear-gradient(to top, #2f2f2f, #4a4a4a);
 }
 .container {
 	padding-top: 50px;
@@ -102,16 +93,19 @@ span {
 .footer{
 	padding-top: 29px;
 }
-.footermenu ul {
-	background: #e1e1e1;
-	margin: 0;
+.footermenu a {
+	color:black;
 }
 .footermenu a:hover {
+	border: none;
+	padding: 10px 30px 13px;
 	text-decoration: underline;
+	background: lightgray;
 }
-.footermenu li {
-	height: 20px;
+.footermenu ul {
+	background: lightgray;
 }
-.footermenu a {
-	color: #2c2c2c;
+.footermenu li:nth-child(5){
+	float: right;
+	padding-right: 15px;
 }
