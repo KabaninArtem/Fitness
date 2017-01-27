@@ -8,41 +8,47 @@ p {
 	text-align: justify;
 	width: 700px;
 }
+span {
+	float:right;
+}
 .wrapper {
+	height:1000px;
 	margin-left: 154px;
 	margin-right: 152px;
 	background-color: #ffffff;
 }
-.header {
+.header, .footer {
 	padding-left: 47px;
 	padding-top: 49px;
 	background-color: #ffffff;	
 }
-.menu {
+.menu, .footermenu {
 	margin-top: 40px;
 	background: linear-gradient(to top, #525252, #525252);
 	height: 39px;
-	width: 964px;
-	border: 1px solid #525253;
+	width: 964px;	
 }
-.inline {
-	padding: 14px 23px 14px 23px;
+.headerline, .footerline {
+	padding: 14px 27px 14px 27px;
 }
-.inline li {
-	display: inline;
-	margin: 25px;
+.headerline li, .footerline li {
+	display: inline;	
 }
-.inline a {
+.headerline a, .footerline a {
 	text-decoration: none;
 	color: white;
 	font-family: regular, sans-serif;
-	font-size: 14px;	
+	font-size: 14px;
+	padding:12px 56px 9px 52px;
 }
-.inline a:hover {
+.headerline a:hover {
 	border-right: 2px solid #838383;
 	border-left: 2px solid #838383;
 	background-color: #464646;
-	padding: 10px;
+	padding-left:50px;
+	padding-right: 54px;
+	padding-top: 14px;
+	padding-bottom: 9px;
 }
 .container {
 	height:650px;
@@ -63,17 +69,16 @@ p {
 	text-decoration: none;
 	font-size: 15px;
 }
-.link:last-child a {
-	border-bottom: 1px solid #c8c8c8;
-}
 .link a:hover {
 	padding-left: 17px;
 	color: #2c2c2c;
 	background-color: #f9f9f9;
 }
+.link:last-child a {
+	border-bottom: 1px solid #c8c8c8;
+}
 .rightbox {
 	width: 800px;
-	height: 800px;
 	float: right;
 }
 .bicycle {
@@ -87,3 +92,15 @@ p {
 	border: 1px solid #c8c8c8;
 }
 
+.footer{
+	padding-top: 29px;
+}
+.footermenu {
+	background: linear-gradient(to top, #e1e1e1, #e1e1e1);
+}
+.footerline a{
+	color: #2c2c2c;
+}
+.footerline li:nth-child(2) {
+	text-decoration: underline;
+}
